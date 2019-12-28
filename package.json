@@ -1,0 +1,23 @@
+{
+  "name": "parcel-element-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel web/index.html",
+    "build": "rm -rf dist/ && parcel build web/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^2.13.0",
+    "moment": "^2.24.0",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.0",
+    "pug": "^2.0.4",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
